@@ -178,7 +178,7 @@ function verificaDica () {
     });
     // condição responsável por verificar se o usuário já excedeu o nro de dicas
     if (dicaOk == false) {
-        alertaPopup('Você já excedeu o nro de dicas!')
+        alertaPopup('Você já excedeu o número de dicas!')
     };
 };
 
