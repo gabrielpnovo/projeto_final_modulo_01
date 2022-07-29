@@ -1,0 +1,205 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #a9a9a9;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  box-sizing: border-box;
+  height: 5vh;
+  padding: 1rem 1.875em 1rem 1.875em;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  top: 0px;
+}
+
+.header a {
+  color: white;
+  font-size: 100%;
+  font: inherit;
+  font-family: "Roboto", sans-serif;
+}
+
+.header h1 {
+  color: white;
+  font-size: 100%;
+  font: inherit;
+  font-family: "Roboto", sans-serif;
+  padding: 1vh;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+.menu a {
+  display: block;
+  padding: 0.5rem;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.promotion-header {
+  display: flex;
+  box-sizing: border-box;
+  height: 5vh;
+  padding: 1rem 1.875em 1rem 1.875em;
+  align-items: center;
+  justify-content: center;
+  background: Red;
+  top: 0px;
+  font: inherit;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.promotion-header:hover {
+  color: red;
+  background: white;
+}
+
+.button-top {
+  width: 40px;
+  height: 40px;
+  background: rgb(26, 25, 25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.025);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.button-top:hover {
+  background: white;
+  color: black;
+}
+
+.section-title {
+  color: rgb(26, 25, 25);
+  margin: 2rem;
+  margin-bottom: 0;
+  border-bottom: 3px solid rgb(214, 209, 209);
+  border-bottom-style: dotted;
+}
+
+.section-items {
+  margin: 0;
+}
+
+.items-list {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0 1rem;
+}
+
+.item-line {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  margin: 1rem;
+}
+
+.item-image-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(26, 25, 25);
+  border-radius: 10%;
+  width: 15rem;
+  padding: 0.3rem;
+  box-shadow: 2px;
+}
+
+.image {
+  border: 3px solid rgb(26, 25, 25);
+  margin: 0rem;
+  width: 100%;
+  border-radius: 10%;
+  width: 16rem;
+  box-shadow: 3px 2px 2px 1px rgb(117, 117, 117);
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 2rem;
+  width: 100%;
+}
+
+.item-name {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(26, 25, 25);
+  border-bottom: 3px solid rgb(214, 209, 209);
+  border-bottom-style: dotted;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0rem;
+  font-family: "Dosis", sans-serif;
+}
+
+.price-currency {
+  font-size: 0.7rem;
+  margin: 0;
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.price-value {
+  margin: 0 0 0 0.3rem;
+  font-size: 2rem;
+  font-family: "Dosis", sans-serif;
+  color: white;
+}
+
+.size {
+  font-family: "Dosis", sans-serif;
+  margin: 0.5rem 5rem 0 5rem;
+  text-align: center;
+  border-bottom: 1px dotted rgb(26, 25, 25);
+}
+
+.description {
+  font-family: "Dosis", sans-serif;
+  margin: 0 5rem;
+  text-align: center;
+}
